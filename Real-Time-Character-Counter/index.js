@@ -4,11 +4,12 @@ const totalCounterEl = document.getElementById("total-counter");
 
 const remainingCounterEl = document.getElementById("remaining-counter");
 
+
 textarealEl.addEventListener("keyup", ()=>{
-    updateCounter()
+    updateCounter();
 });
 
-updateCounter()
+updateCounter();
 
 function updateCounter(){
     totalCounterEl.innerText = textarealEl.value.length;
