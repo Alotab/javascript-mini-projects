@@ -70,7 +70,8 @@ body{
     position: absolute;
     top: 30px;
     right: 30px;
-    color: white;
+    /* color: white; */
+    color: aqua;
     cursor: pointer;
 }
 
